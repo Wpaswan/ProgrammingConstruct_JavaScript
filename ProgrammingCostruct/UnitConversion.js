@@ -1,0 +1,11 @@
+
+var lengthInInches=Number(100)
+var breadthInInches=Number(200)
+console.log("Area of rectangular plot is "+lengthInInches*breadthInInches+" square inch!!")
+var lengthInInFeet=Number(lengthInInches/12)
+var breadthInFeet=Number(breadthInInches/12)
+console.log("Area of rectangular plot is "+lengthInInFeet*breadthInFeet+" square feet!!")
+var lengthInMetre=Number(lengthInInFeet*0.3048)
+var breadthInMetre=Number(breadthInFeet*0.3048)
+console.log("Area of rectangular plot is "+lengthInMetre*breadthInMetre+" square meter!!")
+console.log("Area of rectangular plot is "+lengthInMetre*breadthInMetre*0.0002471054+" Acre!!")
